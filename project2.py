@@ -139,6 +139,6 @@ plt.tight_layout()
 
 # Show all
 
-plt.show()
 
-plt.savefig("ecommerce_output.png")
+plt.savefig("ecommerce_output.png", dpi=300, bbox_inches="tight")
+plt.show()
